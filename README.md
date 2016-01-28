@@ -1,2 +1,2 @@
 # intoG
-GG
+GGgg
