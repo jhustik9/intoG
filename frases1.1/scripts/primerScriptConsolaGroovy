@@ -1,0 +1,19 @@
+import frases.* /*el import evita escribir el paquete en cada comando*/
+/*
+new frases.Fraseado(autor: "Chuck Norris Facts",
+ contenido: "Chuck Norris always uses his own design patterns").save()
+ 
+new frases.Fraseado(autor: "Eric Raymond",
+ contenido: "Being a social outcast helps you stay concentrated.").save() */
+ 
+ new Fraseado(autor: "Ghandi",
+ contenido: "La educacion es el arma mas poderosa que puede cambiar al mundo").save()
+ 
+new Fraseado(autor: "Steve Jobs",
+ contenido: "Su tiempo es limitado, asi que no lo malgasten viviendo la vida de otro").save() 
+ 
+ println frases.Fraseado.count()
+ 
+ /*ocupando metodos especiales de busqueda*/
+/* def cita = Fraseado.findByAutor("Alex")
+ println cita.contenido*/

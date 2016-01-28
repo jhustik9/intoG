@@ -1,0 +1,110 @@
+body {
+
+    width: 80%;
+    margin: 0px auto;
+    background: url(../images/background.png) repeat-x;
+}
+
+#nav {
+    text-align:right;
+    margin-right: 1em;
+}
+
+#header {
+    background: url(../images/logo_background.png) repeat-x;
+    width: 100%;
+}
+#header img {
+    padding: 1em;
+}
+
+#botones{
+    height: 20px;
+    background: tomato;
+    margin: 10px 0px;
+    padding: 10px;
+    text-align: center;
+}
+#botones1{
+    height: 20px;
+    background: tomato;
+    margin: 10px 0px;
+    padding: 10px;
+    text-align: center;
+}
+#botones2{
+    height: 20px;
+    background: tomato;
+    margin: 10px 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+#tabla{
+
+    border: 1px solid;
+    margin: 20px 0px;
+    text-align: center;
+    padding:10px 10px;
+}
+
+#tabla form tr{
+    height: 40px;
+    border: 1px solid black;
+}
+
+#botones button a{
+    text-decoration: none;
+}
+
+#botones button a:hover{
+    color: #48802C;
+}
+
+div#formulario{
+    width: 50%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+div#formulario label{
+    width: 20%;
+    text-align: left;
+    margin: 10px;
+}
+
+#cita{
+    background-color: #4F82B5;
+    font: 1em "Times New Roman";
+    color: whitesmoke;
+}
+
+#cita h2{
+    border: 1px solid steelblue;
+    width: 30%;
+    background: linear-gradient(white, steelblue);
+    border-radius: 10px;
+    margin: 10px 20px;
+}
+
+#cita p{
+    margin-left: 20px;
+    font-size: 1.5em;
+}
+
+#tabla table form tr td.ids{
+    display: none;
+}
+
+#formulario fieldset form p.ids{
+    display: none;
+}
+
+#errores{
+    height: 30px;
+    background: transparent;
+    margin: 10px 0px;
+    padding: 10px;
+    text-align: center;
+}
+
